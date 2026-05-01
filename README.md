@@ -7,7 +7,7 @@ Specifically, we design a Pteryla Token Construction  module to generate pteryla
 #
 <img width="1645" height="726" alt="image" src="https://github.com/user-attachments/assets/dd81847f-e4e9-4498-9f65-783379d5ab7d" />
 
-🌟 Key Contributions
+#🌟 Key Contributions
 We propose a novel PteFBIC framework for fine-grained bird image classification. The proposed model effectively learns pteryla-related features across different bird species and improves recognition performance. To the best of our knowledge, this is one of the first attempts to introduce pteryla relationships as discriminative cues for fine-grained bird classification.
 2) Two modules are introduced to extract and exploit pteryla-related information from bird images. Specifically, the pteryla relationship mining (PRM) module captures regional dependencies in appearance patterns across different body regions. The key cue xtraction (KCE) module aggregates multi-scale semantic information and, guided by the learned pteryla-related cues, identifies key informative regions to enhance discriminative representation learning.
 3) Extensive experiments are conducted on two benchmark FBIC datasets, CUB-200-2011 and NABirds. The results show that the proposed PteFBIC consistently outperforms existing state-of-the-art methods. In addition, visualization analyses are provided to intuitively demonstrate the effectiveness of the learned pteryla-related appearance cues.
